@@ -15,16 +15,15 @@ I found, how I confirmed it, its impact, and how to fix it.
 | 1 | [OWASP Juice Shop](writeups/01-juice-shop-sqli-auth-bypass.md) | Training lab (local) | SQL injection → authentication bypass |
 | 2 | [OWASP WebGoat (GraphQL)](writeups/02-webgoat-graphql-broken-auth.md) | Training lab (local) | GraphQL broken authentication |
 | 3 | [PortSwigger Web Security Academy](writeups/03-portswigger-business-logic-negative-quantity.md) | Vendor lab | Business-logic flaw (negative quantity) |
-| 4 | [My own app (React + Supabase)](writeups/04-my-app-price-tampering-and-broken-access-control.md) | My application | Price tampering + broken access control — **found & fixed** |
+| 4 | [newburguer — my own app (case study)](writeups/04-my-app-price-tampering-and-broken-access-control.md) | My application | Price tampering + broken access control — **found, fixed, deployed & verified** |
 
 ## Methodology
 
 Each engagement followed the same phases: recon and surface mapping →
-authenticated/unauthenticated enumeration → vulnerability identification →
-controlled proof-of-concept → impact analysis → remediation. Findings were
-validated by reproducing them, not just flagged by a scanner. Write-up #4 goes
-one step further: it's an app I built, so it shows the full loop through to the
-code-level fix.
+enumeration → vulnerability identification → controlled proof-of-concept →
+impact analysis → remediation. Findings were validated by reproducing them,
+not just flagged by a scanner. Write-up #4 is a full loop on an app I built —
+through the code-level fix, a production deploy, and live verification.
 
 ## About
 
